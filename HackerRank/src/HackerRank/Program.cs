@@ -14,7 +14,16 @@ namespace HackerRank
         public static void Main(string[] args)
         {
             Algorithms alg = new Algorithms();
-            alg.Warmup("SolveMeFirst");
+            alg.Warmup(WarmupChallenge.SOLVEMEFIRST);
+
+            ExitMessage();
+        }
+
+        /// <summary>
+        /// Writes an exit message to the stdout and waits for the user to click any key.
+        /// </summary>
+        public static void ExitMessage()
+        {
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }

@@ -18,13 +18,12 @@ namespace HackerRank
         /// <summary>
         /// Warmup challenge of the Algorithms domain.
         /// </summary>
-        /// <param name="challenge">A string representing the name of the challenge.</param>
-        public void Warmup(string challenge)
+        /// <param name="challenge">An enum representing the name of the challenge.</param>
+        public void Warmup(WarmupChallenge challenge)
         {
-            challenge = challenge.ToUpper();
             switch (challenge)
             {
-                case "SOLVEMEFIRST":
+                case WarmupChallenge.SOLVEMEFIRST:
                     SolveMeFirst smf = new SolveMeFirst();
                     Console.WriteLine(smf.Instructions() );
                     smf.Input();
