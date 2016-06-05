@@ -34,7 +34,7 @@ namespace HackerRank
         /// <param name="a">First double in the operation.</param>
         /// <param name="b">Second double in the operation.</param>
         /// <returns>The sum of two doubles (A double).</returns>
-        public double Sum(double a, double b)
+        private double Sum(double a, double b)
         {
             return a + b;
         }

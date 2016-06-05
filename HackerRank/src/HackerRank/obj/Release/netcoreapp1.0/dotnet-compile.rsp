@@ -1,5 +1,5 @@
---temp-output:C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\obj\Release\netcoreapp1.0\
---out:C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\bin\Release\netcoreapp1.0\HackerRank.dll
+--temp-output:C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\obj\Release\netcoreapp1.0\
+--out:C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\bin\Release\netcoreapp1.0\HackerRank.dll
 --define:RELEASE
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -87,8 +87,9 @@
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Threading.Timer\4.0.1-rc2-24027\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Xml.ReaderWriter\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Xml.XDocument\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\Algorithms.cs
-C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\IChallenge.cs
-C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\Program.cs
-C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\SolveMeFirst.cs
-C:\Users\ivan rodriguez\Documents\Visual Studio 2015\Projects\HackerRank\src\HackerRank\Properties\AssemblyInfo.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Algorithms.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\IChallenge.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\SolveMeFirst.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\WarmupChallenge.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Properties\AssemblyInfo.cs

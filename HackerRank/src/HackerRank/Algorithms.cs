@@ -25,9 +25,7 @@ namespace HackerRank
             {
                 case WarmupChallenge.SOLVEMEFIRST:
                     SolveMeFirst smf = new SolveMeFirst();
-                    Console.WriteLine(smf.Instructions() );
-                    smf.Input();
-                    Console.WriteLine(smf.Output() );
+                    InputAndOutputHelper(smf);
                     break;
 
                 default:
@@ -35,6 +33,19 @@ namespace HackerRank
                         "in https://www.hackerrank.com/domains/algorithms/warmup");
                     break;
             }
+        }
+
+        /// <summary>
+        /// Helper method that makes me write less code.
+        /// <remarks>Gets the input (stdin) and send the output of the challenges (stdout).</remarks>
+        /// </summary>
+        /// <param name="challenge">A challenge to take input and send output from.</param>
+        private void InputAndOutputHelper(IChallenge challenge)
+        {
+            Console.WriteLine(challenge.Instructions());
+            Console.WriteLine("Input: ");
+            challenge.Input();
+            Console.WriteLine("Output: {0}", challenge.Output());
         }
     }
 }
