@@ -53,22 +53,12 @@ namespace HackerRank
         /// Implementation of the Input method in IChallenge interface.
         /// <remarks>Ask for the a and b doubles to make the addition operation.</remarks>
         /// </summary>
-        /// <exception cref="FormatException">Throw when the user enter an invalid input.</exception>
         public void Input()
         {
-            try
-            {
-                Console.Write("a = ");
-                a = Convert.ToInt64(Console.ReadLine());
-                Console.Write("b = ");
-                b = Convert.ToInt64(Console.ReadLine());
-            }
-            catch (FormatException e)
-            {
-                Console.WriteLine(e.Message);
-                Console.WriteLine("Invalid input. Please try again and enter a valid number.");
-                Environment.Exit(1);
-            }
+            Console.Write("a = ");
+            a = Convert.ToInt64(Console.ReadLine());
+            Console.Write("b = ");
+            b = Convert.ToInt64(Console.ReadLine());
         }
 
         /// <summary>

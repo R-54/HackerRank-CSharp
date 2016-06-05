@@ -4,7 +4,7 @@
     /// Interface that represents a HackerRank challenge.
     /// <remarks>The challenge must have an Input, an Output and Instructions.</remarks>
     /// </summary>
-    interface IChallenge
+    public interface IChallenge
     {
         /// <summary>
         /// The solution of the hackerRank challenge.
