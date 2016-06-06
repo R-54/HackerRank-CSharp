@@ -23,7 +23,7 @@ namespace HackerRank
             switch (challenge)
             {
                 case WarmupChallenge.SOLVEMEFIRST: return new SolveMeFirst();
-
+                case WarmupChallenge.SIMPLEARRAYSUM: return new SimpleArraySum();
                 default: throw new AlgorithmsChallengeException();
             }
         }

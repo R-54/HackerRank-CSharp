@@ -11,12 +11,10 @@ namespace HackerRank
         /// <summary>
         /// Represents a number to make an addition operation.
         /// </summary>
-        /// <value> First double in the addition operation. </value>
         private double a;
         /// <summary>
         /// Represents a number to make an addition operation.
         /// </summary>
-        /// <value> Second double in the addition operation. </value>
         private double b;
 
         /// <summary>
@@ -40,7 +38,7 @@ namespace HackerRank
         }
 
         /// <summary>
-        /// Implementation of the Output methond in IChallenge interface.
+        /// The sum of two numbers.
         /// </summary>
         /// <returns>A string representing the sum of two doubles.</returns>
         public string Output()
@@ -50,24 +48,22 @@ namespace HackerRank
 
 
         /// <summary>
-        /// Implementation of the Input method in IChallenge interface.
-        /// <remarks>Ask for the a and b doubles to make the addition operation.</remarks>
+        /// Ask for the a and b doubles to make the addition operation.
         /// </summary>
         public void Input()
         {
-            Console.Write("a = ");
             a = Convert.ToInt64(Console.ReadLine());
-            Console.Write("b = ");
             b = Convert.ToInt64(Console.ReadLine());
         }
 
         /// <summary>
-        /// Implementation of the Intructions method in the IChallenge interface.
+        /// Intructions of this challenge..
         /// </summary>
         /// <returns>A string representing the instructions of this challenge.</returns>
         public string Instructions()
         {
-            return "Enter 2 numbers to make an addition operation: a + b";
+            return "Enter 2 numbers to make an addition operation: a + b.\n" +
+                "See https://www.hackerrank.com/challenges/solve-me-first for details.";
         }
     }
 }

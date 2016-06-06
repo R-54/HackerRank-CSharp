@@ -16,16 +16,22 @@ namespace HackerRank
             try
             {
                 Algorithms alg = new Algorithms();
+
                 IChallenge challenge = alg.Warmup(WarmupChallenge.SOLVEMEFIRST);
                 Console.WriteLine(challenge.Instructions() );
                 challenge.Input();
-                Console.WriteLine("Output: {0}", challenge.Output() );
+                Console.WriteLine(challenge.Output() );
+
+                challenge = alg.Warmup(WarmupChallenge.SIMPLEARRAYSUM);
+                Console.WriteLine(challenge.Instructions());
+                challenge.Input();
+                Console.WriteLine(challenge.Output());
             }
 
             catch (AlgorithmsChallengeException e)
             {
-                Console.WriteLine("Please choose a valid challenge. See valid challenge " +
-                    "in https://www.hackerrank.com/domains/algorithms/warmup");
+                Console.WriteLine("Please choose a valid challenge.\n" +
+                    "See valid challenge in https://www.hackerrank.com/domains/algorithms/warmup");
             }
 
             catch (FormatException e)
