@@ -16,3 +16,5 @@ HackerRank-CSharp\HackerRank\src\HackerRank folder and write in the terminal:
     dotnet run
     
 More info of .NET Core at https://dotnet.github.io/
+
+More info of HackerRank at https://www.hackerrank.com/domains
