@@ -87,11 +87,11 @@
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Threading.Timer\4.0.1-rc2-24027\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Xml.ReaderWriter\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\ivan rodriguez\.nuget\packages\System.Xml.XDocument\4.0.11-rc2-24027\ref\netstandard1.3\System.Xml.XDocument.dll
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Algorithms.cs
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\AlgorithmsChallengeException.cs
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\IChallenge.cs
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program.cs
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\SimpleArraySum.cs
-C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\SolveMeFirst.cs
 C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\WarmupChallenge.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\IChallenge.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\Program.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\Domains\Algorithms\Algorithms.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\Domains\Algorithms\AlgorithmsChallengeException.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\Domains\Algorithms\WarmupChallenges\SimpleArraySum.cs
+C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Program\Domains\Algorithms\WarmupChallenges\SolveMeFirst.cs
 C:\Users\ivan rodriguez\Documents\GitHub\HackerRank-CSharp\HackerRank\src\HackerRank\Properties\AssemblyInfo.cs

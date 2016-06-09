@@ -32,11 +32,13 @@ namespace HackerRank
             {
                 Console.WriteLine("Please choose a valid challenge.\n" +
                     "See valid challenge in https://www.hackerrank.com/domains/algorithms/warmup");
+                Console.Error.WriteLine(e.Message);
             }
 
             catch (FormatException e)
             {
                 Console.WriteLine("Please enter a valid number.");
+                Console.Error.WriteLine(e.Message);
             }
 
             Console.WriteLine("Press any key to exit...");

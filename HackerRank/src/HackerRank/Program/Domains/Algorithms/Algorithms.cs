@@ -1,5 +1,4 @@
-﻿using System;
-namespace HackerRank
+﻿namespace HackerRank
 {
     /// <summary>
     /// Class representing the Algorithms Domain of the HackerRank web page.
