@@ -1,5 +1,5 @@
 # HackerRank-CSharp
-Programming challenge of HackerRank
+Programming challenges of HackerRank
 
 Usage: 
 
