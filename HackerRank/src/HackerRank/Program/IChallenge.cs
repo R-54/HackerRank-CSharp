@@ -1,4 +1,4 @@
-﻿namespace HackerRank
+﻿namespace HackerRank.Program
 {
     /// <summary>
     /// Interface that represents a HackerRank challenge.

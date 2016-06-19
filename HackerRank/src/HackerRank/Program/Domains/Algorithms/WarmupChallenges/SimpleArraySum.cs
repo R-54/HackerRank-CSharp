@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace HackerRank
+namespace HackerRank.Program.Domains.Algorithms.WarmupChallenges
 {
     /// <summary>
-    /// Represents the Simple Array Sum challenge of the HackerRank web page.
+    /// Represents the "Simple Array Sum" challenge of the HackerRank web page.
     /// </summary>
     public class SimpleArraySum : IChallenge
     {
@@ -34,8 +34,10 @@ namespace HackerRank
         /// <returns>A strings representing the instructions of this challenge.</returns>
         public string Instructions()
         {
-            return "Given an array of N integers, find the sum of its elements.\n" +
-                "See https://www.hackerrank.com/challenges/simple-array-sum for details.";
+            return "Given an array of N integers, find the sum of its elements." +
+                "\nFirst line: The array length." +
+                "\nSecond line: The N space-separed numbers to be added." +
+                "\nSee https://www.hackerrank.com/challenges/simple-array-sum for details.";
         }
 
         /// <summary>

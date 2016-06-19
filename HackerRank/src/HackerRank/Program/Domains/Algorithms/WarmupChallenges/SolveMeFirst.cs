@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace HackerRank
+namespace HackerRank.Program.Domains.Algorithms.WarmupChallenges
 {
     /// <summary>
-    /// Class that represents the challenge "Solve Me First" in HackerRank.
-    /// The challenge: Add two numbers given in stdin and print the result in stdout.
+    /// Represents the "Solve Me First" challenge of the HackerRank web page.
     /// </summary>
     public class SolveMeFirst : IChallenge
     {
@@ -57,13 +56,15 @@ namespace HackerRank
         }
 
         /// <summary>
-        /// Intructions of this challenge..
+        /// Intructions of this challenge.
         /// </summary>
         /// <returns>A string representing the instructions of this challenge.</returns>
         public string Instructions()
         {
-            return "Enter 2 numbers to make an addition operation: a + b.\n" +
-                "See https://www.hackerrank.com/challenges/solve-me-first for details.";
+            return "Enter 2 numbers to make an addition operation: a + b." +
+                "\nFirst line: First number in the binary adition operation." +
+                "\nSecond line: Second number in the binary adition operation." +
+                "\nSee https://www.hackerrank.com/challenges/solve-me-first for details.";
         }
     }
 }
