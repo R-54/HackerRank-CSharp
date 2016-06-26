@@ -115,6 +115,7 @@ namespace HackerRank.Program
                 "\n\t 0.- Solve Me First" +
                 "\n\t 1.- Simple Array Sum" +
                 "\n\t 2.- A Very Big Sum" +
+                "\n\t 3.- Diagonal Difference" +
                 "\n\t More supperted Challenges in the future");
             Console.WriteLine("\nPlease enter the number of the HackerRank Challenge: ");
             challenge = Convert.ToInt32(Console.ReadLine());
@@ -124,7 +125,7 @@ namespace HackerRank.Program
                 case WarmupChallenge.SOLVE_ME_FIRST: return new SolveMeFirst();
                 case WarmupChallenge.SIMPLE_ARRAY_SUM: return new SimpleArraySum();
                 case WarmupChallenge.A_VERY_BIG_SUM: return new AVeryBigSum();
-                case WarmupChallenge.DIAGONAL_DIFFERENCE:
+                case WarmupChallenge.DIAGONAL_DIFFERENCE: return new DiagonalDifference();
                 case WarmupChallenge.PLUS_MINUS:
                 case WarmupChallenge.STAIRCASE:
                 case WarmupChallenge.TIME_CONVERSION:
