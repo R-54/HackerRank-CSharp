@@ -56,7 +56,7 @@ namespace HackerRank.Program
             Console.WriteLine("Domains:" +
                 "\n\t 0.- Algorithms" +
                 "\n\t More supported domains in the future.");
-            Console.Write("\nPlease enter the number of the HackerRank Domain: ");
+            Console.WriteLine("\nPlease enter the number of the HackerRank Domain: ");
             domain = Convert.ToInt32(Console.ReadLine());
 
             switch ((Domain)domain)
@@ -84,7 +84,7 @@ namespace HackerRank.Program
             Console.WriteLine("Challenges:" +
                 "\n\t 0.- Warmup" +
                 "\n\t More supperted Challenges in the future");
-            Console.Write("\nPlease enter the number of the HackerRank Challenge: ");
+            Console.WriteLine("\nPlease enter the number of the HackerRank Challenge: ");
             challenge = Convert.ToInt32(Console.ReadLine());
 
             switch ((AlgorithmsChallenge)challenge)
@@ -116,7 +116,7 @@ namespace HackerRank.Program
                 "\n\t 1.- Simple Array Sum" +
                 "\n\t 2.- A Very Big Sum" +
                 "\n\t More supperted Challenges in the future");
-            Console.Write("\nPlease enter the number of the HackerRank Challenge: ");
+            Console.WriteLine("\nPlease enter the number of the HackerRank Challenge: ");
             challenge = Convert.ToInt32(Console.ReadLine());
 
             switch ((WarmupChallenge)challenge)
